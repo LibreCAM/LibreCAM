@@ -1,6 +1,6 @@
 #include "camprofiledataparser.h"
 #include "camprofiledata.h"
-#include <Qlist>
+#include <QList>
 #include <QString>
 
 /**
