@@ -1,5 +1,5 @@
-#include "CAMProfileWidget.h"
-#include "ui_CAMProfileWidget.h"
+#include "camprofilewidget.h"
+#include "ui_camprofilewidget.h"
 
 CAMProfileWidget::CAMProfileWidget(QWidget *parent) :
     QWidget(parent),
