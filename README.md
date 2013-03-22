@@ -6,7 +6,7 @@ A CAM plugin for LibreCAD
 
 Installation
 ========
-Within your LibreCAN directory go to your plugins directory and execute:
+Within your LibreCAM directory go to your plugins directory and execute:
 
 git clone https://github.com/LibreCAM/LibreCAM.git
 
