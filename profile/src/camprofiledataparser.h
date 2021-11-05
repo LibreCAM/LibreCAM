@@ -1,7 +1,7 @@
 #ifndef CAMPROFILEDATAPARSER_H
 #define CAMPROFILEDATAPARSER_H
 
-#include <QList>;
+#include <QList>
 #include <QXmlDefaultHandler>
 
 class CAMProfileData;

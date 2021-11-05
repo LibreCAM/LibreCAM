@@ -24,14 +24,15 @@ class librecam : public QObject, QC_PluginInterface
 {
     Q_OBJECT
      Q_INTERFACES(QC_PluginInterface)
+    Q_PLUGIN_METADATA(IID LC_DocumentInterface_iid FILE  "librecam.json")
 
  public:
     librecam();
     ~librecam();
-    virtual PluginCapabilities getCapabilities() const;
-    virtual QString name() const;
+    virtual PluginCapabilities getCapabilities() const Q_DECL_OVERRIDE;
+    virtual QString name() const Q_DECL_OVERRIDE;
     virtual void execComm(Document_Interface *doc,
-                                       QWidget *mainWindow, QString cmd);
+                                       QWidget *mainWindow, QString cmd) Q_DECL_OVERRIDE;
     void showProfileTools(Document_Interface *doc, QMainWindow *mainWindow);
 
 private:

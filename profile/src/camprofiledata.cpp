@@ -10,7 +10,7 @@
 /*  along with this program.  If not, see <http://www.gnu.org/licenses/>.    */
 /*****************************************************************************/
 
-#include "CAMProfileData.h"
+#include "camprofiledata.h"
 #include <QString>
 #include <QDomDocument>
 #include <QDomElement>
