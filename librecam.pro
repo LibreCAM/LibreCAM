@@ -7,11 +7,11 @@
 QT       += gui xml
 TEMPLATE = lib
 CONFIG += plugin
-VERSION = 1.0.0
+VERSION = 1.0.1
 PLUGIN_NAME=librecam
 
 # Use common project definitions.
-include(../../common.pro)
+include(../../common.pri)
 
 # For plugins
 INCLUDEPATH    += ../../librecad/src/plugins

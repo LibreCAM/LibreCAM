@@ -32,7 +32,10 @@ CAMProfileSettingsList::~CAMProfileSettingsList()
   *
   */
 void CAMProfileSettingsList::savePreferences() {
-    QString location = QDesktopServices::storageLocation(QDesktopServices::DocumentsLocation) + QDir::separator() + "rvtcam" + QDir::separator() + "profile.xml";
+    QString location = "profile.xml";
+            /*QStandardPaths::DesktopLocation(
+                QStandardPaths::DocumentsLocation) +
+            QDir::separator() + "rvtcam" + QDir::separator() + "profile.xml";*/
 
     QFile file(location);
     if (file.open(QIODevice::WriteOnly | QIODevice::Text)) {
@@ -60,7 +63,8 @@ void CAMProfileSettingsList::savePreferences() {
   *
   */
 void CAMProfileSettingsList::loadPreferences() {
-    QString location = QDesktopServices::storageLocation(QDesktopServices::DocumentsLocation) + QDir::separator() + "rvtcam" + QDir::separator() + "profile.xml";
+    QString location = "profile.xml";
+            //QDesktopServices::storageLocation(QDesktopServices::DocumentsLocation) + QDir::separator() + "rvtcam" + QDir::separator() + "profile.xml";
 
     QFile file(location);
     if (file.open(QIODevice::ReadOnly)) {

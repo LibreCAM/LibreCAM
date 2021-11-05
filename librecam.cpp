@@ -18,8 +18,8 @@
 #include <QSettings>
 #include <QMessageBox>
 #include <QDoubleValidator>
-#include <QDockWidget>;
-#include <QMainWindow>;
+#include <QDockWidget>
+#include <QMainWindow>
 
 #include "document_interface.h"
 #include "librecam.h"
@@ -81,4 +81,4 @@ void librecam::showProfileTools(Document_Interface *doc, QMainWindow *mainWindow
     mainWindow->addDockWidget(Qt::RightDockWidgetArea , dw);
 }
 
-Q_EXPORT_PLUGIN2(librecam, librecam);
+//Q_EXPORT_PLUGIN2(librecam, librecam);

@@ -1,6 +1,6 @@
-#include "CAMProfileSettings.h"
+#include "camprofilesettings.h"
 #include "profile/src/camprofiledata.h"
-#include "ui_CAMProfileSettings.h"
+#include "ui_camprofilesettings.h"
 
 #include <QMessageBox>
 #include <QValidator>
